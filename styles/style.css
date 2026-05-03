@@ -70,8 +70,10 @@ body {
 
 footer {
   background-color: #DF823F;
+  border-radius: 12px;
 }
 footer p {
+  padding: 0.5rem;
   font-size: 16px;
 }
 
