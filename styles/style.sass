@@ -1,6 +1,62 @@
 $primary-color: #DF823F
+$background-color: #D9D9D9
+$font: 'Changa One', sans-serif
 
+@mixin flex-center
+  display: flex
+  justify-content: center
+  align-items: center
 
+nav
+  width: 100%
+  background: $primary-color
+  padding: 1rem
+  @include flex-center
+  flex-direction: row
+
+  ul
+    @include flex-center
+    flex-direction: row
+    list-style: none
+    margin: 0
+    padding: 0
+    gap: 1.5rem
+    font-size: 32px
+    align-items: center
+
+  a
+    color: #EEEEEE
+    text-decoration: none
+
+  a:hover
+    opacity: 0.8
+  
 body
-    font-family: 'Changa One', sans-serif
-    background-color: $primary-color
+  font-family: $font
+  background-color: $background-color
+
+footer
+  background-color: $primary-color
+  
+  p
+    font-size: 16px
+
+
+.recipe-buttons
+  display: flex
+  flex-direction: column
+  gap: 0.5rem
+  align-items: flex-start
+
+  button
+    font-family: $font
+    font-size: 24px 
+    color: $background-color
+    background-color:  $primary-color
+    padding: 0.3rem 0.8rem
+    border-radius: 8px
+    border: none
+    cursor: pointer
+
+    &:hover
+      opacity: 0.8
