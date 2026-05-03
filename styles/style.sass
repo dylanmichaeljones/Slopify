@@ -127,3 +127,128 @@ footer
   
   .recipe-buttons
     align-items: center
+
+.account
+  background: linear-gradient(#eaad81, #DF823F)
+  color: #EEEEEE
+  padding: 3rem 2rem
+  border-radius: 12px
+  margin-top: 1rem
+
+.accountInfo
+  display: flex
+  align-items: center
+  gap: 2rem
+  max-width: 900px
+  margin: 0 auto
+
+  img
+    border-radius: 20px
+
+.account-info
+  text-align: left
+
+  h1
+    font-size: 40px
+    margin-bottom: 0.5rem
+
+  p
+    font-size: 20px
+    max-width: 500px
+
+.user-recipes
+  margin-top: 2rem
+  padding: 2rem
+  border: 5px solid $primary-color
+  border-radius: 12px
+
+  h2
+    color: $primary-color
+    font-size: 32px
+    text-align: center
+    margin-bottom: 2rem
+
+@media (max-width: 768px)
+  .accountInfo
+    flex-direction: column
+    text-align: center
+
+  .account-info
+    text-align: center
+
+.settings
+  max-width: 700px
+  margin: 2rem auto
+  padding: 2rem
+  border: 5px solid $primary-color
+  border-radius: 12px
+  background: transparent
+
+  h1
+    text-align: center
+    color: $primary-color
+    font-size: 36px
+    margin-bottom: 2rem
+
+.settings-form
+  display: flex
+  flex-direction: column
+  gap: 1.5rem
+
+.form-group
+  display: flex
+  flex-direction: column
+  gap: 0.5rem
+
+  label
+    font-size: 20px
+    color: $primary-color
+
+  input, textarea
+    font-family: $font
+    padding: 0.5rem
+    border-radius: 8px
+    border: 2px solid $primary-color
+    font-size: 18px
+
+.settings-form button
+  font-family: $font
+  font-size: 24px 
+  color: $background-color
+  background-color: $primary-color
+  padding: 0.5rem 1rem
+  border-radius: 8px
+  border: none
+  cursor: pointer
+  margin-top: 1rem
+
+  &:hover
+    opacity: 0.8
+
+  &:active
+    transform: scale(0.95)
+
+.recipes-page
+  margin-top: 2rem
+
+  h1
+    text-align: center
+    font-size: 40px
+    color: $primary-color
+    margin-bottom: 2rem
+
+.featuredrecipe
+  width: 500px
+
+.featuredrecipe img
+  width: 100%
+  height: 100%
+  object-fit: cover
+  border-radius: 12px
+  display: block
+
+.featured-grid
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+  gap: 2rem
+  justify-items: center
