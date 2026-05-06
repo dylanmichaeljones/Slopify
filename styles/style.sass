@@ -1,4 +1,4 @@
-$primary-color: #DF823F
+$primary-color: #7BCED6
 $background-color: #D9D9D9
 $font: 'Changa One', sans-serif
 
@@ -14,10 +14,18 @@ html
 
 nav
   background: $primary-color
-  padding: 1rem
-  @include flex-center
-  flex-direction: row
+  padding: 1rem 2rem
+  display:  flex
+  align-items: center
+  justify-content: space-between
   border-radius: 12px
+
+  .logo
+    height: 100px
+    object-fit: contain
+    background: white
+    border-radius: 20px
+    margin-left: 1rem
 
   ul
     @include flex-center
@@ -29,7 +37,7 @@ nav
     font-size: 32px 
 
   a
-    color: #EEEEEE
+    color: #D6837B
     text-decoration: none
     &:hover
       opacity: 0.8
@@ -42,10 +50,10 @@ body
   background-color: $background-color
 
 .hero
-  background: linear-gradient(#eaad81, #DF823F)
+  background: linear-gradient(#97cbcf, #7BCED6)
   padding: 3rem 1rem
   text-align: center
-  color: #EEEEEE
+  color: #D6837B
   font-size: 32px
   border-radius: 12px
   margin-top: 1rem
@@ -131,7 +139,7 @@ footer
     align-items: center
 
 .account
-  background: linear-gradient(#eaad81, #DF823F)
+  background: linear-gradient(#97cbcf, #7BCED6)
   color: #EEEEEE
   padding: 3rem 2rem
   border-radius: 12px
