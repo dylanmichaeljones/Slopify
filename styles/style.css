@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-  background: #7BCED6;
+  background: #4A2121;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
@@ -18,6 +18,9 @@ nav .logo {
   border-radius: 20px;
   margin-left: 1rem;
 }
+nav label {
+  color: #ACC8E5;
+}
 nav ul {
   display: flex;
   justify-content: center;
@@ -30,7 +33,7 @@ nav ul {
   font-size: 32px;
 }
 nav a {
-  color: #D6837B;
+  color: #ACC8E5;
   text-decoration: none;
 }
 nav a:hover {
@@ -42,25 +45,25 @@ nav form {
 
 body {
   font-family: "Changa One", sans-serif;
-  background-color: #D9D9D9;
+  background-color: #ACC8E5;
 }
 
 .hero {
-  background: linear-gradient(#97cbcf, #7BCED6);
+  background: linear-gradient(#4A2121, #603333);
   padding: 3rem 1rem;
   text-align: center;
-  color: #D6837B;
+  color: #ACC8E5;
   font-size: 32px;
   border-radius: 12px;
   margin-top: 1rem;
 }
 
 .featured {
-  color: #7BCED6;
+  color: #4A2121;
   font-size: 32px;
   text-align: center;
   margin-top: 40px;
-  border: 5px solid #7BCED6;
+  border: 10px solid #4A2121;
   border-radius: 12px;
 }
 
@@ -72,7 +75,7 @@ body {
   font-size: 24px;
 }
 .featured-grid a {
-  color: #7BCED6;
+  color: #4A2121;
   text-decoration: none;
 }
 .featured-grid a:hover {
@@ -80,7 +83,8 @@ body {
 }
 
 footer {
-  background-color: #7BCED6;
+  background-color: #4A2121;
+  color: #ACC8E5;
   border-radius: 12px;
 }
 footer p {
@@ -107,8 +111,8 @@ footer p {
 .recipe-buttons button {
   font-family: "Changa One", sans-serif;
   font-size: 24px;
-  color: #D9D9D9;
-  background-color: #7BCED6;
+  color: #ACC8E5;
+  background-color: #4A2121;
   padding: 0.3rem 0.8rem;
   border-radius: 8px;
   border: none;
@@ -148,7 +152,7 @@ footer p {
   }
 }
 .account {
-  background: linear-gradient(#97cbcf, #7BCED6);
+  background: linear-gradient(#4A2121, #603333);
   color: #EEEEEE;
   padding: 3rem 2rem;
   border-radius: 12px;
@@ -181,11 +185,11 @@ footer p {
 .user-recipes {
   margin-top: 2rem;
   padding: 2rem;
-  border: 5px solid #7BCED6;
+  border: 5px solid #4A2121;
   border-radius: 12px;
 }
 .user-recipes h2 {
-  color: #7BCED6;
+  color: #4A2121;
   font-size: 32px;
   text-align: center;
   margin-bottom: 2rem;
@@ -204,13 +208,13 @@ footer p {
   max-width: 700px;
   margin: 2rem auto;
   padding: 2rem;
-  border: 5px solid #7BCED6;
+  border: 5px solid #4A2121;
   border-radius: 12px;
   background: transparent;
 }
 .settings h1 {
   text-align: center;
-  color: #7BCED6;
+  color: #4A2121;
   font-size: 36px;
   margin-bottom: 2rem;
 }
@@ -228,21 +232,21 @@ footer p {
 }
 .form-group label {
   font-size: 20px;
-  color: #7BCED6;
+  color: #4A2121;
 }
 .form-group input, .form-group textarea {
   font-family: "Changa One", sans-serif;
   padding: 0.5rem;
   border-radius: 8px;
-  border: 2px solid #7BCED6;
+  border: 2px solid #4A2121;
   font-size: 18px;
 }
 
 .settings-form button {
   font-family: "Changa One", sans-serif;
   font-size: 24px;
-  color: #D9D9D9;
-  background-color: #7BCED6;
+  color: #ACC8E5;
+  background-color: #4A2121;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   border: none;
@@ -262,7 +266,7 @@ footer p {
 .recipes-page h1 {
   text-align: center;
   font-size: 40px;
-  color: #7BCED6;
+  color: #4A2121;
   margin-bottom: 2rem;
 }
 
