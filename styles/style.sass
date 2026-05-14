@@ -1,5 +1,5 @@
 $primary-color: #4A2121
-$background-color: #ACC8E5
+$background-color: #F0D3C5
 $font: 'Changa One', sans-serif
 
 
@@ -23,7 +23,7 @@ nav
   .logo
     height: 100px
     object-fit: contain
-    background: white
+    background: #F0D3C5
     border-radius: 20px
     margin-left: 1rem
   
@@ -46,7 +46,26 @@ nav
   
   form
     margin-left: 4rem
+.search
+    display: flex
+    flex-direction: column
+    gap: 0.5rem
 
+
+    input
+        padding: 0.75rem 1rem
+        border: 2px solid $primary-color
+        border-radius: 12px
+
+        background-color: $background-color
+
+        &::placeholder 
+            color: #000000
+        
+        &:focus
+            outline: none
+            border-color: $primary-color
+            box-shadow: 0 0 10px $primary-color
 body
   font-family: $font
   background-color: $background-color
@@ -65,8 +84,7 @@ body
   font-size: 32px
   text-align: center
   margin-top: 40px
-  border: 10px solid $primary-color
-  border-radius: 12px
+
 
 .featured-grid
   display: flex
